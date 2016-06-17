@@ -1,0 +1,38 @@
+{
+  "name": "gulp-angular2",
+  "version": "0.1.0",
+  "description": "Gulp plugin to bundle your Angular 2 app code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Murazaki/gulp-angular2.git"
+  },
+  "keywords": [
+    "angular2",
+    "gulp",
+    "es6",
+    "typescript",
+    "bundle"
+  ],
+  "author": "Mehdi Benadel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Murazaki/gulp-angular2/issues"
+  },
+  "homepage": "https://github.com/Murazaki/gulp-angular2#readme",
+  "dependencies": {
+    "babel-preset-angular2": "0.0.2",
+    "babel-preset-es2015": "^6.9.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1",
+    "gulp-util": "^3.0.7",
+    "object-assign": "^4.1.0",
+    "path": "^0.12.7",
+    "stringify": "^5.1.0",
+    "through2": "^2.0.1",
+    "tsify": "^0.16.0"
+  }
+}
