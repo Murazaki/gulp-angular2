@@ -18,7 +18,7 @@ How to compile your Angular2 app:
 var gulp = require('gulp');
 var angular2 = require('gulp-angular2');
 
-gulp.task('sass', function () {
+gulp.task('angular2app', function () {
   return gulp.src('./src/app/main.js')
     .pipe(angular2())
     .pipe(gulp.dest('./public/app'));
