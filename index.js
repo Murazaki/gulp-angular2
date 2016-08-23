@@ -17,7 +17,7 @@ module.exports = function gulpAngular2(options, data) {
     },
     babelConfig: {
       extensions: ['.js', '.es6', '.json', '.jsx'],
-      presets: ['es2015', 'angular2']
+      presets: ['es2017', 'angular2']
     },
     typescriptConfig: {
       target: "es5",
